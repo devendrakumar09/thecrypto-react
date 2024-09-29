@@ -2,11 +2,13 @@ import AlertUI from "./components/alert/AlertUI";
 import FeaturesUI from "./components/features/FeaturesUI";
 import FooterUi from "./components/footer/FooterUi";
 import HeaderUi from "./components/header/HeaderUi";
+import NavbarUI from "./components/navbar/NavbarUI";
 
 
 function App() {
   return (
     <div className="App">
+      <NavbarUI />
       <HeaderUi />
       <FeaturesUI />
       <AlertUI />
